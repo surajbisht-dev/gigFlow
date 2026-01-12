@@ -1,4 +1,5 @@
-🚀 GigFlow – Mini Freelance Marketplace
+# **🚀 GigFlow – Mini Freelance Marketplace**
+
 
 GigFlow is a full-stack freelance marketplace platform where clients can post gigs and freelancers can place bids. Clients can review bids and hire one freelancer, while others are automatically rejected. The system supports secure authentication, real-time notifications, and robust state handling.
 
