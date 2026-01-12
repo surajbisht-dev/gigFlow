@@ -28,6 +28,7 @@ app.use(
 );
 
 // Routes
+
 app.use("/api/auth", authRoutes);
 app.use("/api/gigs", gigRoutes);
 app.use("/api/bids", bidRoutes);
@@ -40,3 +41,10 @@ mongoose
     );
   })
   .catch(console.error);
+
+app.get("/", (req, res) => {
+  res.status(200).json({
+    status: "success",
+    message: "GigFlow backend is running successfully ",
+  });
+});
