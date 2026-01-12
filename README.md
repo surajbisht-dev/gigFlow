@@ -8,6 +8,8 @@ Frontend: https://gigflow-1-eiu2.onrender.com
 
 Backend: https://gigflow-me2e.onrender.com
 
+---
+
 🔑 Test Credentials
 
 You can use the following test accounts to explore the platform:
@@ -26,6 +28,8 @@ Password: free12
 
 ⚠️ This is a dynamic application.
 You are free to register new users, create gigs, place bids, and test all features independently.
+
+---
 
 🧠 Project Working (How It Works)
 
@@ -75,6 +79,8 @@ No fixed roles.
 
 The same user can act as both client and freelancer.
 
+---
+
 🛠️ Tech Stack Used
 Frontend
 
@@ -110,6 +116,8 @@ Database
 
 MongoDB Atlas
 
+---
+
 🔧 Tools & Platforms
 
 Git & GitHub
@@ -121,6 +129,8 @@ MongoDB Atlas
 Postman (API Testing)
 
 VS Code
+
+---
 
 ⚠️ Problems Faced & How They Were Resolved
 1. CORS & Cookie-Based Authentication
@@ -148,6 +158,8 @@ Solution: Added a compound unique index and handled duplicate key errors gracefu
 Problem: Bid inputs updated across multiple gigs.
 Solution: Maintained bid state per gig using object mapping.
 
+---
+
 ✅ Key Highlights
 
 Secure cookie-based authentication
@@ -159,6 +171,8 @@ Clean and responsive UI
 Production-ready deployment
 
 Scalable architecture
+
+---
 
 📌 Final Note
 
