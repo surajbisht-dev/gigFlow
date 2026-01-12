@@ -1,20 +1,23 @@
 import { useState } from "react";
 import { useAuth } from "../../context/AuthContext";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Button from "../../components/ui/Button";
 import Input from "../../components/ui/Input";
 
 export default function Register() {
   const { register } = useAuth();
+  const navigate = useNavigate();
+
   const [form, setForm] = useState({
     name: "",
     email: "",
     password: "",
   });
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault();
-    register(form);
+    await register(form);
+    navigate("/login");
   };
 
   return (
